@@ -9,7 +9,7 @@ class Calculator extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(title: Text('ahmed',style: TextStyle(color: Colors.red),),),
         body: CalculatorWidget(),
       ),
     );
